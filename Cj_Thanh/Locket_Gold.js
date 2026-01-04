@@ -24,7 +24,7 @@ var t22092002={
 
 var t22092002_sub={
   grace_period_expires_date:null,
-  purchase_date:"2008-03-05T01:04:17Z",
+  purchase_date:"2002-09-22T01:04:17Z",
   product_identifier:"com.t22092002.premium.yearly",
   expires_date:"2999-12-18T01:04:17Z"
 };
