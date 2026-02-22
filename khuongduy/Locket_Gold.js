@@ -16,14 +16,14 @@ const premiumInfo = {
   billing_issues_detected_at: null,
   period_type: "normal",
   expires_date: "2999-12-18T01:04:17Z",
-  original_purchase_date: "0999-12-31T01:04:17Z",
-  purchase_date: "0999-12-31T01:04:17Z",
+  original_purchase_date: "1111-12-31T01:04:17Z",
+  purchase_date: "1111-12-31T01:04:17Z",
   store: "app_store"
 };
 
 const entitlementInfo = {
   grace_period_expires_date: null,
-  purchase_date: "0999-12-31T01:04:17Z",
+  purchase_date: "1111-12-31T01:04:17Z",
   product_identifier: "com.khuongduy.premium.yearly",
   expires_date: "2999-12-18T01:04:17Z"
 };
