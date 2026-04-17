@@ -4,8 +4,8 @@ let obj = JSON.parse($response.body);
 obj.subscriber = obj.subscriber || {};
 obj.subscriber.entitlements = obj.subscriber.entitlements || {};
 obj.subscriber.subscriptions = obj.subscriber.subscriptions || {};
-const pInfo = { is_sandbox: false, ownership_type: "PURCHASED", expires_date: "2999-12-18T01:04:17Z", purchase_date: "2024-01-01T01:04:17Z", store: "app_store" };
-const eInfo = { purchase_date: "2024-01-01T01:04:17Z", product_identifier: "com.nghia.premium.yearly", expires_date: "2999-12-18T01:04:17Z" };
+const pInfo = { is_sandbox: false, ownership_type: "PURCHASED", expires_date: "2999-12-18T01:04:17Z", purchase_date: "2025-01-01T01:04:17Z", store: "app_store" };
+const eInfo = { purchase_date: "2025-01-01T01:04:17Z", product_identifier: "com.nghia.premium.yearly", expires_date: "2999-12-18T01:04:17Z" };
 const match = Object.keys(mapping).find(e => ua.includes(e));
 if (match) {
   let [entKey, subKey] = mapping[match];
